@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 80px; 
+    height: auto; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.nav-left {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+}
+
+nav {
+    display: flex;
+    flex-grow: 1; 
+    justify-content: center; 
+    align-items: center;
+    gap: 30px; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.login-btn {
+    position: absolute;
+    top: 50px;
+    right: 40px; 
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    position: relative;
+    right: 400px;
+}
+
+.hero {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* padding: 15px;
+    padding-left: 200px; */
+    background-color: white;
+}
+
+.hero-content {
+    max-width: 45%;
+}
+
+.hero-content h1 {
+    font-size: 90px;
+    padding-left: 50px;
+    align-content: center;
+    color: black;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.hero-content p {
+    margin-top: 20px;
+    padding-left: 50px;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.btn-group {
+    margin-top: 30px;
+}
+
+.shop-now-btn, .category-btn {
+    background-color: red;
+    padding-left: 50px;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin-right: 10px;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.category-btn {
+    background-color: #f6f6f6;
+    color: black;
+    border: 1px solid black;
+}
+
+.shop-now-btn:hover {
+    background-color: darkred;
+}
+
+.category-btn:hover {
+    background-color: lightgray;
+}
+
+.available-on {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #666;
+}
+
+.store-icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.store-icons img {
+    width: 150px;
+    height: 100px;
+}
+
+.hero-image img {
+    padding-bottom: 200px;
+    width: 800px;
+    transform: rotate(-1deg);
+}
